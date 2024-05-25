@@ -1,0 +1,12 @@
+{
+  "name": "bittorent-client",
+  "version": "1.0.0",
+  "description": "Bittorent client for learning purpose",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tanay Verma",
+  "license": "ISC"
+}
