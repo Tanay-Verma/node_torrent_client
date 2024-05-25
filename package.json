@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Bittorent client for learning purpose",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tanay Verma",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "bencode": "^4.0.0"
+  }
 }

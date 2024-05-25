@@ -1,4 +1,5 @@
-"use strict"
-const fs = require('fs');
-const torrent = fs.readFileSync('puppy.torrent');
-console.log(torrent.toString('utf-8'))
+"use strict";
+import * as fs from "fs";
+import bencode from "bencode";
+const torrent = bencode.decode(fs.readFileSync("puppy.torrent"));
+console.log(torrent.announce.toString('utf-8')); // buffer
