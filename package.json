@@ -6,11 +6,13 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
+    "start:watch": "node --watch index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tanay Verma",
   "license": "ISC",
   "dependencies": {
-    "bencode": "^4.0.0"
+    "bencode": "^4.0.0",
+    "bignum": "^0.13.1"
   }
 }
